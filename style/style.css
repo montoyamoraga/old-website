@@ -1,0 +1,52 @@
+/*menu css style based on http://www.w3schools.com/css/css_navbar.asp*/
+
+
+/*img css style based on http://www.w3schools.com/css/css_align.asp */
+
+img {
+    display: block;
+    margin: auto;
+    width: 75%;
+}
+
+.header {
+    text-align: center;
+}
+
+.about {
+    text-align: center;
+}
+
+.contact {
+    text-align: center;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    font-family: Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+.menulist {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.menuitem {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.menuitem:hover {
+    background-color: #111;
+}
