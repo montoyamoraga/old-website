@@ -14,10 +14,23 @@ p, h1, h2, h3, h4, h5, h6 {
 ul {
     display: inline-flex;
     list-style-type: none;
-    width: 80%;
-    margin: 0 auto;
+    padding: 0;
 }
 
 li{
-  margin-right: 20px;
+  margin-right: 23px;
+}
+
+li a{
+  font-family: Helvetica, sans-serif;
+  text-decoration: none;
+  color: black;
+}
+
+li a:hover{
+  opacity: 0.5;
+}
+
+.nav {
+  text-align: center;
 }
