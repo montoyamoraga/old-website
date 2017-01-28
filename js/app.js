@@ -1,6 +1,6 @@
 console.log("yo what up");
 
-var home = window.document.getElementById('home');
+//var home = window.document.getElementById('home');
 var about = window.document.getElementById('about');
 var now = window.document.getElementById('now');
 var opus = window.document.getElementById('opus');
@@ -9,7 +9,7 @@ var contact = window.document.getElementById('contact');
 
 var contents = window.document.getElementById('contents');
 
-home.addEventListener("click", goToHome);
+//home.addEventListener("click", goToHome);
 about.addEventListener("click", goToAbout);
 now.addEventListener("click", goToNow);
 opus.addEventListener("click", goToOpus);
