@@ -31,6 +31,15 @@ li a:hover{
   opacity: 0.5;
 }
 
+.linktohome {
+  text-decoration: none;
+  color: black;
+}
+
+.linktohome:hover{
+  opacity: 0.5;
+}
+
 .nav {
   text-align: center;
 }
