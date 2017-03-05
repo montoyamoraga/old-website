@@ -43,3 +43,9 @@ li a:hover{
 .nav {
   text-align: center;
 }
+
+.coverpiccontent {
+    border-radius: 20px;
+    max-width: 60%;
+    height: auto;
+}
