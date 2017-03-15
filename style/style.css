@@ -1,3 +1,8 @@
+/*css for personal site*/
+/*by aaron montoya-moraga*/
+/*with tons of help by wipawe sirikolkarn*/
+/*march 2017*/
+
 
 img {
     display: block;
@@ -28,6 +33,16 @@ li a{
 }
 
 li a:hover{
+  opacity: 0.5;
+}
+
+a{
+  font-family: Helvetica, sans-serif;
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
   opacity: 0.5;
 }
 
