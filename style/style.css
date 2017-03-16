@@ -46,6 +46,13 @@ a:hover{
   opacity: 0.5;
 }
 
+.piccaption {
+  font-family: Helvetica, sans-serif;
+  font-weight: normal;
+  text-align: center;
+  font-size: 40%;
+}
+
 .linktohome {
   text-decoration: none;
   color: black;
