@@ -1,0 +1,158 @@
+/*css for montoyamoraga.io
+by aaron montoya-moraga
+april 2017*/
+
+
+/*css for paragraphs ("p" elements) and headers ("h" elements)*/
+
+p, h1, h2, h3, h4, h5, h6 {
+    /*set font to Avantgarde*/
+    font-family: Avantgarde;
+    /*normal text, no italics, no bold*/
+    font-weight: normal;
+    /*centered text*/
+    text-align: center;
+    /*display in block*/
+    display: block;
+    /*reset margin and padding for google chrome */
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    -webkit-padding-start: 0;
+    /*no padding (inner space of element)*/
+    padding: 0;
+    /*margin (outter space of element)*/
+    /*first reset, then set actual value wanted*/
+    margin: 0.3em;
+}
+
+
+/*css for font sizes of header elements*/
+
+h1 {
+    font-size: 1.7em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1.17em;
+}
+
+h4 {
+    font-size: 1.0em;
+}
+
+h5 {
+    font-size: 0.83em;
+}
+
+h6 {
+    font-size: 0.67em;
+}
+
+
+/*css for links ("a" elements)*/
+
+a {
+    /*reset of format*/
+    text-decoration: none;
+    /*set font to avantgarde*/
+    font-family: Avantgarde;
+    /*set color to black*/
+    color: black;
+}
+
+
+/*css for links ("a" elements), when hovering over them*/
+
+a:hover {
+    /*change opacity of link*/
+    opacity: 0.5;
+}
+
+
+/*css for figure elements*/
+
+figure {
+    /*display as block element*/
+    display: inline-block;
+    /*no padding(inner space of element)*/
+    padding: 0;
+    /*margin (outer space of element)*/
+    margin: 0.2em;
+}
+
+
+/*css for figcaption elements nested under figure elements*/
+
+figure figcaption {
+    font-family: Avantgarde;
+    font-weight: normal;
+    text-align: center;
+    font-size: 100%;
+    padding-top: 0.7%;
+}
+
+
+/*css for element with id myNavMenu*/
+
+#myNavMenu {
+    width: 100%;
+    overflow: auto;
+}
+
+
+/*css for a elements under element with id myNavMenu*/
+
+#myNavMenu a {
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    transition: all 1.0s ease;
+}
+
+
+/*css for html element with id coverPictureDiv*/
+
+#coverPictureDiv {
+    max-height: 50%;
+}
+
+
+/*css for html element with id coverPicture*/
+
+#coverPicture {
+    display: block;
+    margin: auto;
+    vertical-align: top;
+    border-radius: 10px;
+    max-width: 50%;
+    /*max-height: 25%;*/
+    height: auto;
+}
+
+
+/*css for about page*/
+
+
+/*align paragraphs and headers to the left*/
+
+#about p, #about h1, #about h2, #about h3, #about h4, #about h5, #about h6 {
+    text-align: justify;
+}
+
+
+/*css for contact page*/
+
+
+/*align paragraphs and headers to the left*/
+
+#contact p, #contact h1, #contact h2, #contact h3, #contact h4, #contact h5, #contact h6 {
+    text-align: justify;
+}
