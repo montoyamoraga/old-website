@@ -90,7 +90,8 @@
 				var mtlLoader = new THREE.MTLLoader();
 				//mtlLoader.setPath( 'obj/male02/' );
         mtlLoader.setPath( 'aaron_obj/' );
-				mtlLoader.load( 'male02_dds.mtl', function( materials ) {
+				//mtlLoader.load( 'male02_dds.mtl', function( materials ) {
+        mtlLoader.load( 'model_mesh.obj.mtl', function( materials ) {
 
 					materials.preload();
 
