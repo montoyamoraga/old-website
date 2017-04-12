@@ -97,8 +97,9 @@
 
 					var objLoader = new THREE.OBJLoader();
 					objLoader.setMaterials( materials );
-					objLoader.setPath( 'obj/male02/' );
-					objLoader.load( 'male02.obj', function ( object ) {
+					//objLoader.setPath( 'obj/male02/' );
+          objLoader.setPath( 'aaron_obj/' );
+					objLoader.load( 'model_mesh.obj', function ( object ) {
 
 						object.position.y = - 95;
 						scene.add( object );
