@@ -88,7 +88,8 @@
 				THREE.Loader.Handlers.add( /\.dds$/i, new THREE.DDSLoader() );
 
 				var mtlLoader = new THREE.MTLLoader();
-				mtlLoader.setPath( 'obj/male02/' );
+				//mtlLoader.setPath( 'obj/male02/' );
+        mtlLoader.setPath( 'aaron_obj/' );
 				mtlLoader.load( 'male02_dds.mtl', function( materials ) {
 
 					materials.preload();
