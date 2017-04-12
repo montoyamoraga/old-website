@@ -106,18 +106,6 @@ figure figcaption {
 }
 
 
-/*css for a elements under element with id myNavMenu*/
-
-#myNavMenu a {
-    float: left;
-    width: 20%;
-    text-align: center;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    transition: all 1.0s ease;
-}
-
-
 /*css for html element with id coverPictureDiv*/
 
 #coverPictureDiv {
@@ -138,12 +126,38 @@ figure figcaption {
 }
 
 
-/*css for about page*/
+/*css for info page*/
 
 
 /*align paragraphs and headers to the left*/
 
-#about p, #about h1, #about h2, #about h3, #about h4, #about h5, #about h6 {
+#info p, #info h1, #info h2, #info h3, #info h4, #info h5, #info h6 {
+    text-align: justify;
+}
+
+
+/*css for exhibitions in info page*/
+
+
+/*select any class that contains exhibit*/
+
+[class*="exhibit"] {
+    /*make them float to the left*/
+    float: left;
+    /*make them a certain min width*/
+    width: 120px;
+    /*put a margin to each element*/
+    margin-left: 10px;
+}
+
+.row {
+    display: block;
+}
+
+
+/*css for portfolio page*/
+
+#portfolio p, #portfolio h1, #portfolio h2, #portfolio h3, #portfolio h4, #portfolio h5, #portfolio h6 {
     text-align: justify;
 }
 
@@ -155,4 +169,16 @@ figure figcaption {
 
 #contact p, #contact h1, #contact h2, #contact h3, #contact h4, #contact h5, #contact h6 {
     text-align: justify;
+}
+
+/*css for a elements under element with id myNavMenu*/
+
+#myNavMenu a {
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    transition: all 0.5s ease;
+
 }
