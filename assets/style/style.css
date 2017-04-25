@@ -69,10 +69,12 @@ a {
 
 /*css for links ("a" elements), when hovering over them*/
 
-a:hover {
+a:hover, a h1:hover, a h2:hover {
     /*change opacity of link*/
     opacity: 0.5;
 }
+
+a h1:hover
 
 
 /*css for figure elements*/
