@@ -133,7 +133,7 @@ figure figcaption {
 
 /*align paragraphs and headers to the left*/
 
-#info p, #info h1, #info h2, #info h3, #info h4, #info h5, #info h6 {
+#info * {
     text-align: justify;
 }
 
@@ -159,7 +159,11 @@ figure figcaption {
 
 /*css for portfolio page*/
 
-#portfolio p, #portfolio h1, #portfolio h2, #portfolio h3, #portfolio h4, #portfolio h5, #portfolio h6 {
+#portfolio * {
+    text-align: justify;
+}
+
+#teaching * {
     text-align: justify;
 }
 
@@ -169,7 +173,7 @@ figure figcaption {
 
 /*align paragraphs and headers to the left*/
 
-#contact p, #contact h1, #contact h2, #contact h3, #contact h4, #contact h5, #contact h6 {
+#contact * {
     text-align: justify;
 }
 
