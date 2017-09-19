@@ -1,6 +1,6 @@
 /*css for montoyamoraga.io
 by aaron montoya-moraga
-april 2017*/
+september 2017*/
 
 
 /*css for paragraphs ("p" elements) and headers ("h" elements)*/
@@ -30,7 +30,7 @@ p, h1, h2, h3, h4, h5, h6 {
 
 /*css for font sizes of header elements*/
 
-h1 {
+/*h1 {
     font-size: 1.7em;
 }
 
@@ -52,7 +52,7 @@ h5 {
 
 h6 {
     font-size: 0.67em;
-}
+}*/
 
 
 /*css for links ("a" elements)*/
@@ -106,15 +106,6 @@ figure figcaption {
     width: 100%;
     overflow: auto;
 }
-
-
-/*css for html element with id coverPictureDiv*/
-
-#coverPictureDiv {
-    max-height: 50%;
-}
-
-
 /*css for html element with id coverPicture*/
 
 #coverPicture {
@@ -186,5 +177,16 @@ figure figcaption {
     padding-top: 1%;
     padding-bottom: 1%;
     transition: all 0.5s ease;
+}
 
+a.project {
+  width: 33%;
+  float: left;
+  padding: 20px;
+  display: block;
+  text-decoration: none;
+}
+
+a.project h3 {
+  margin: 0;
 }
