@@ -1,9 +1,17 @@
 /*css for montoyamoraga.io
 by aaron montoya-moraga
-september 2017*/
+november 2017*/
 
+* {
+  box-sizing: border-box;
+}
 
-/*css for paragraphs ("p" elements) and headers ("h" elements)*/
+html, body, div {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: 0;
+}
 
 p, h1, h2, h3, h4, h5, h6 {
     /*set font to Avantgarde*/
@@ -24,38 +32,12 @@ p, h1, h2, h3, h4, h5, h6 {
     padding: 0;
     /*margin (outter space of element)*/
     /*first reset, then set actual value wanted*/
-    margin: 0.3em;
+    /*margin: 0.3em;*/
 }
 
-
-/*css for font sizes of header elements*/
-
-/*h1 {
-    font-size: 1.7em;
+p {
+  margin-bottom: 1.5em;
 }
-
-h2 {
-    font-size: 1.5em;
-}
-
-h3 {
-    font-size: 1.17em;
-}
-
-h4 {
-    font-size: 1.0em;
-}
-
-h5 {
-    font-size: 0.83em;
-}
-
-h6 {
-    font-size: 0.67em;
-}*/
-
-
-/*css for links ("a" elements)*/
 
 a {
     /*reset of format*/
@@ -64,133 +46,50 @@ a {
     font-family: Avantgarde;
     /*set color to black*/
     color: black;
+    margin: 0;
+    outline: 0;
+    border: 0;
 }
-
-
-/*css for links ("a" elements), when hovering over them*/
 
 a:hover, a h1:hover, a h2:hover {
     /*change opacity of link*/
     opacity: 0.5;
 }
 
-a h1:hover
-
-
-/*css for figure elements*/
-
-figure {
-    /*display as block element*/
-    display: inline-block;
-    /*no padding(inner space of element)*/
-    padding: 0;
-    /*margin (outer space of element)*/
-    margin: 0.2em;
-}
-
-
-/*css for figcaption elements nested under figure elements*/
-
-figure figcaption {
-    font-family: Avantgarde;
-    font-weight: normal;
-    text-align: center;
-    font-size: 100%;
-    padding-top: 0.7%;
-}
-
-
-/*css for element with id myNavMenu*/
-
 #myNavMenu {
     width: 100%;
     overflow: auto;
 }
-/*css for html element with id coverPicture*/
-
-#coverPicture {
-    display: block;
-    margin: auto;
-    vertical-align: top;
-    border-radius: 10px;
-    max-width: 50%;
-    /*max-height: 25%;*/
-    height: auto;
-}
-
-
-/*css for info page*/
-
-
-/*align paragraphs and headers to the left*/
-
-#info * {
-    text-align: justify;
-}
-
-
-/*css for exhibitions in info page*/
-
-
-/*select any class that contains exhibit*/
-
-[class*="exhibit"] {
-    /*make them float to the left*/
-    float: left;
-    /*make them a certain min width*/
-    width: 120px;
-    /*put a margin to each element*/
-    margin-left: 10px;
-}
-
-.row {
-    display: block;
-}
-
-
-/*css for portfolio page*/
-
-#portfolio * {
-    text-align: justify;
-}
-
-#teaching * {
-    text-align: justify;
-}
-
-
-/*css for contact page*/
-
-
-/*align paragraphs and headers to the left*/
-
-#contact * {
-    text-align: justify;
-}
-
-/*css for a elements under element with id myNavMenu*/
 
 #myNavMenu a {
     float: left;
-    width: 20%;
+    width: 25%;
     text-align: center;
     padding-top: 1%;
     padding-bottom: 1%;
     transition: all 0.5s ease;
 }
 
-footer {
-  display: block;
-}
-
-a.project {
-  width: 33%;
+.project {
+  width: 33.33%;
   float: left;
-  padding: 20px;
+  padding: 10px;
   display: block;
+  color: #000;
   text-decoration: none;
 }
-
 a.project h3 {
   margin: 0;
+  font-size: 1em;
+}
+.project img {
+  width: 100%;
+  border-radius: 10%;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  a.project {
+      width: 100%;
+  }
 }
