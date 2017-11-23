@@ -78,11 +78,17 @@ a:hover, a h1:hover, a h2:hover {
     background: yellow;
 }
 
-#resume {
+/*#resume {
   width: 100%;
   padding-top: 3%;
   padding-left: 5%;
+}*/
+
+myResume {
+
 }
+
+
 
 #contact {
   position: relative;
@@ -107,6 +113,7 @@ a.project h3 {
 .project img {
   width: 100%;
   border-radius: 10%;
+  border: 1px solid #000;
 }
 
   /* For mobile phones: */
