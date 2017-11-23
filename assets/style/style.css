@@ -78,7 +78,11 @@ a:hover, a h1:hover, a h2:hover {
     background: yellow;
 }
 
-
+#resume {
+  width: 100%;
+  padding-top: 3%;
+  padding-left: 5%;
+}
 
 #contact {
   position: relative;
