@@ -12,47 +12,44 @@ html, body, div {
   outline: 0;
   border: 0;
 }
+/*set font to Avantgarde*/
+/*normal text, no italics, no bold*/
+/*centered text*/
+/*display in block*/
+/*reset margin and padding for google chrome */
+/*no padding (inner space of element)*/
 
 p, h1, h2, h3, h4, h5, h6 {
-    /*set font to Avantgarde*/
     font-family: Avantgarde;
-    /*normal text, no italics, no bold*/
     font-weight: normal;
-    /*centered text*/
     text-align: center;
-    /*display in block*/
     display: block;
-    /*reset margin and padding for google chrome */
     -webkit-margin-before: 0;
     -webkit-margin-after: 0;
     -webkit-margin-start: 0;
     -webkit-margin-end: 0;
     -webkit-padding-start: 0;
-    /*no padding (inner space of element)*/
     padding: 0;
-    /*margin (outter space of element)*/
-    /*first reset, then set actual value wanted*/
-    /*margin: 0.3em;*/
 }
 
 p {
   margin-bottom: 1.5em;
 }
 
+  /*reset of format*/
+  /*set font to avantgarde*/
+  /*set color to black*/
 a {
-    /*reset of format*/
     text-decoration: none;
-    /*set font to avantgarde*/
     font-family: Avantgarde;
-    /*set color to black*/
     color: black;
     margin: 0;
     outline: 0;
     border: 0;
 }
 
+/*change opacity of link*/
 a:hover, a h1:hover, a h2:hover {
-    /*change opacity of link*/
     opacity: 0.5;
 }
 
@@ -78,17 +75,19 @@ a:hover, a h1:hover, a h2:hover {
   color: #000;
   text-decoration: none;
 }
+
 a.project h3 {
   margin: 0;
   font-size: 1em;
 }
+
 .project img {
   width: 100%;
   border-radius: 10%;
 }
 
-@media only screen and (max-width: 768px) {
   /* For mobile phones: */
+@media only screen and (max-width: 768px) {
   a.project {
       width: 100%;
   }
