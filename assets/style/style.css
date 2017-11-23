@@ -53,6 +53,13 @@ a:hover, a h1:hover, a h2:hover {
     opacity: 0.5;
 }
 
+#myHeader {
+  float: left;
+  width: 100%;
+  padding-top: 5%;
+  padding-bottom: 2%;
+}
+
 #myNavMenu {
     width: 100%;
     overflow: auto;
@@ -69,6 +76,14 @@ a:hover, a h1:hover, a h2:hover {
 
 #menuSelection {
     background: yellow;
+}
+
+
+
+#contact {
+  position: relative;
+  width: 100%;
+  top: 100px;
 }
 
 .project {
