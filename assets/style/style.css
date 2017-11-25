@@ -74,6 +74,11 @@ a:hover, a h1:hover, a h2:hover {
     transition: all 0.5s ease;
 }
 
+#about{
+  width: 100%;
+  padding: 10%;
+}
+
 #menuSelection {
     background: yellow;
 }
